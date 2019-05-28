@@ -1,0 +1,132 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		5210B815229991130044B981 /* personal_website_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personal_website_logo.png; sourceTree = "<group>"; };
+		5210B81A2299D7290044B981 /* insta_pic.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = insta_pic.JPG; sourceTree = "<group>"; };
+		5210B81F229C71B00044B981 /* cool_pic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cool_pic.jpeg; sourceTree = "<group>"; };
+		52E87CEC20A7C733003DA713 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		52E87CEE20A7CD23003DA713 /* fontawesome-webfont.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "fontawesome-webfont.svg"; sourceTree = "<group>"; };
+		52E87CEF20A7CD23003DA713 /* fontawesome-webfont-v=3.2.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont-v=3.2.1.ttf"; sourceTree = "<group>"; };
+		52E87CF020A7CD23003DA713 /* fontawesome-webfont-v=3.2.1.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont-v=3.2.1.woff"; sourceTree = "<group>"; };
+		52E87CF120A7CD23003DA713 /* fontawesome-webfont-v=3.2.1.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont-v=3.2.1.eot"; sourceTree = "<group>"; };
+		52E87CF220A7CD23003DA713 /* fontawesome-webfont-.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont-.eot"; sourceTree = "<group>"; };
+		52E87CF420A7CD23003DA713 /* bootstrap.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bootstrap.js; sourceTree = "<group>"; };
+		52E87CF520A7CD23003DA713 /* jquery.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		52E87D0220A7CD23003DA713 /* bootstrap.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bootstrap.css; sourceTree = "<group>"; };
+		52E87D0320A7CD23003DA713 /* main.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		52E87D0420A7CD23003DA713 /* font-awesome.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "font-awesome.min.css"; sourceTree = "<group>"; };
+		52E87D0520A7CD23003DA713 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		52E87CE520A7C715003DA713 = {
+			isa = PBXGroup;
+			children = (
+				52E87D0120A7CD23003DA713 /* css */,
+				52E87CED20A7CD23003DA713 /* font */,
+				52E87CF620A7CD23003DA713 /* images */,
+				52E87CF320A7CD23003DA713 /* js */,
+				52E87D0520A7CD23003DA713 /* README.md */,
+				52E87CEC20A7C733003DA713 /* index.html */,
+			);
+			sourceTree = "<group>";
+		};
+		52E87CED20A7CD23003DA713 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				52E87CEE20A7CD23003DA713 /* fontawesome-webfont.svg */,
+				52E87CEF20A7CD23003DA713 /* fontawesome-webfont-v=3.2.1.ttf */,
+				52E87CF020A7CD23003DA713 /* fontawesome-webfont-v=3.2.1.woff */,
+				52E87CF120A7CD23003DA713 /* fontawesome-webfont-v=3.2.1.eot */,
+				52E87CF220A7CD23003DA713 /* fontawesome-webfont-.eot */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		52E87CF320A7CD23003DA713 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				52E87CF420A7CD23003DA713 /* bootstrap.js */,
+				52E87CF520A7CD23003DA713 /* jquery.min.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		52E87CF620A7CD23003DA713 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5210B81F229C71B00044B981 /* cool_pic.jpeg */,
+				5210B81A2299D7290044B981 /* insta_pic.JPG */,
+				5210B815229991130044B981 /* personal_website_logo.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		52E87D0120A7CD23003DA713 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				52E87D0220A7CD23003DA713 /* bootstrap.css */,
+				52E87D0320A7CD23003DA713 /* main.css */,
+				52E87D0420A7CD23003DA713 /* font-awesome.min.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		52E87CE620A7C715003DA713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 52E87CE920A7C715003DA713 /* Build configuration list for PBXProject "personal-website" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52E87CE520A7C715003DA713;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		52E87CEA20A7C715003DA713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		52E87CEB20A7C715003DA713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52E87CE920A7C715003DA713 /* Build configuration list for PBXProject "personal-website" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E87CEA20A7C715003DA713 /* Debug */,
+				52E87CEB20A7C715003DA713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52E87CE620A7C715003DA713 /* Project object */;
+}
