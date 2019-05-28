@@ -1,11 +1,53 @@
 body {
-    background-color: #F8F8F8;
+  background-color: #F8F8F8;
   font-family: "Helvetica";
   font-weight: 300;
   font-size: 16px;
   color: #555;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
+}
+
+.dropbtn {
+    background-color: #F8F8F8;
+    color: #ce8464;
+    font: "Helvetica";
+    border: none;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #ce8464;
+    font-weight: 300;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    max-height: 50px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+.rounded {
+    border-radius: 10px;
+    background: white;
 }
 
 .testing {
@@ -28,7 +70,6 @@ body {
     display: inline-block;
     font-size: 20px;
     padding: 20px;
-    margin-right: 200px;
 }
 
 /* Circular image*/
@@ -130,7 +171,6 @@ a:after {
 
 /* Header Wrap */
 .header {
-  background: white;
   text-align:center;
   background-attachment: relative;
   background-position: center center;
@@ -146,6 +186,10 @@ a:after {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.white_background {
+    background: white;
 }
 
 .header h1 {
@@ -216,6 +260,7 @@ a:after {
 
 .desc {
   padding-top: 50px;
+  background: white;
 }
 
 .desc p {
@@ -239,7 +284,7 @@ a:after {
 
 
 sm {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .desc .col-lg-3 {

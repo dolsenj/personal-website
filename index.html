@@ -20,19 +20,26 @@
         <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
         <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
          <script src="js/html5shiv.js"></script>
          <script src="js/respond.min.js"></script>
-         <![endif]-->
+         <script src="js/dropdown.js"></script>
     </head>
     
     <body>
         <ul class="nav">
-            <li><a href="#">Projects</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#">John Dolsen</a></li>
-            <li><a href="#clients">UCO Mission</a></li>
+            <li><div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">UCO Mission</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="https://spark.adobe.com/page/we9Ho6hoBpD7Y/">Fall Mission Update</a>
+                    <a href="https://spark.adobe.com/page/cuEiqJlZyiIb5/">Winter Mission Update</a>
+                    <a href="https://spark.adobe.com/page/01o8N1dnQxf4b/">Spring Mission Update</a>
+                </div>
+            </div></li>
+            </div></a></li>
         </ul>
-        <div class="header" id="headerwrap">
+        <div class="header white_background" id="headerwrap">
             <div class="container">
                 <div class="row centered">
                     <div class="col-lg-12">
@@ -47,7 +54,7 @@
                 </div><!--/.row-->
             </div><!--/.container-->
         </div><!--/.#headerwrap-->
-    
+        
         <section id="about" name="about"></section>
         <!-- ABOUT SECTION -->
         <div class="aboutSec">
@@ -66,12 +73,16 @@
                     <a href="#"><i class="icon-linkedin"></i></a>
                     <a href="#"><i class="icon-envelope"></i></a>
                 </div>
+                <hr class="testing">
+                <br>
             </div>
         </div>
-
+    <div class="header">
+        <h1 class="centered">Resume</h1>
+    </div>
     <section id="resume" name="resume"></section>
     <!-- EDUCATION SECTION -->
-    <div class="otherSec">
+    <div class="container desc rounded">
         <div class="row">
             <div class="col-lg-2 col-lg-offset-1">
                 <h5>EDUCATION</h5>
@@ -82,71 +93,54 @@
                 </p>
             </div>
             <div class="col-lg-3">
-                <p><sm>April 2018</sm><br/>
-                </p>
-            </div>
+                <p><sm>April 2018 <br />
+                    Ann Arbor, MI</sm></p>            </div>
         </div><!--/.row -->
     </div><!--/.container -->
-        
-    <!-- WORK SECTION -->
-    <div class="aboutSec">
+    <br>
+    <!-- Experience SECTION -->
+    <div class="container desc rounded">
         <div class="row">
             <div class="col-lg-2 col-lg-offset-1">
-                <h5>WORK</h5>
+                <h5>EXPERIENCE</h5>
             </div>
-            <!-- EDIT: work line 1 -->
+            <!-- Experience line 1 -->
             <div class="col-lg-6">
-                <p class="tight"><t>Missionary </t><br/>
-                University Christian Outreach <br/>
+                <p class="tight"><t>Software Engineering Internship </t><br/>
+                <a href="http://www.servantsystems.com/">Servant Systems</a><br/>
                 </p>
-                <p><more></more></p>
+                <p><more><ul>
+                    <li>Developed with .NET on team of interns at industry leading franchise management company using Agile process management and Scrum methodology</li>
+                    <li>Built automated test suites using Jasmine, Selenium, Protractor, and the T4 Text Template</li>
+                    <li>Wrote production-level code in JavaScript, C#, NodeJS, and AngularJS </li>
+                </ul></more></p>
             </div>
             <div class="col-lg-3">
-                <p><sm>January 2018 - CURRENT <br />
-                    Ann Arbor, MI, USA</sm></p>
+                <p><sm>May 2016 - Aug 2016 <br />
+                    Chelsea, MI</sm></p>
             </div>
-            
-            <!-- EDIT: work line 2-->
-            <div class="col-lg-6 col-lg-offset-3">
-                <p class="tight"><t>Service Internship</t><br/>
-                Detroit Summer Outreach <br/>
-                </p>
-                <p><more>You worked at another job! Great! Describe waht you did there, include those responsibilities and accomplishments again.</more></p>
-            </div>
-            <div class="col-lg-3">
-                <p><sm>MAY - AUGUST 2017 <br />
-                    DETROIT, MI, USA</sm></p>
-            </div>
-                
-            <!-- EDIT: work line 3-->
+            <!-- Experience line 2-->
             <div class="col-lg-6 col-lg-offset-3">
                 <p class="tight"><t>Software Engineering Internship</t><br/>
-                Servant Systems <br/>
+                <a href="https://www.advantagecs.com/">AdvantageCS</a> <br/>
                 </p>
-                <p><more>You worked at another job! Great! Describe waht you did there, include those responsibilities and accomplishments again.</more></p>
+                <p><more><ul>
+                    <li>Worked on team of software engineers at international industry leading subscription management company using Agile process management and the .NET framework</li>
+                    <li>Redesigned functionality and replaced proprietary word processor using OpenXML in C#</li>
+                    <li>Wrote production-level C# and SQL code in Visual </li>
+                </ul></more></p>
             </div>
             <div class="col-lg-3">
-                <p><sm>MAY - AUGUST 2016 <br />
-                    CHELSEA, MI, USA</sm></p>
+                <p><sm>MAY 2015 - AUGUST 2015 <br />
+                    Ann Arbor, MI</sm></p>
             </div>
             
-            <!-- EDIT: work line 4-->
-            <div class="col-lg-6 col-lg-offset-3">
-                <p class="tight"><t>Software Development Internship</t><br/>
-                Advantage Computing Systems <br/>
-                </p>
-                <p><more>You worked at another job! Great! Describe waht you did there, include those responsibilities and accomplishments again.</more></p>
-            </div>
-            <div class="col-lg-3">
-                <p><sm>MAY - AUGUST 2015 <br />
-                    ANN ARBOR, MI, USA</sm></p>
-            </div>
         </div><!--/.row -->
     </div><!--/.container -->
-        
-        
+    <br>
+    
     <!-- Projects SECTION -->
-    <div class="otherSec">
+    <div class="container desc rounded" id="projects">
         <div class="row">
             <div class="col-lg-2 col-lg-offset-1">
                 <h5>PROJECTS</h5>
@@ -154,29 +148,107 @@
             
             <!-- EDIT: projects line 1-->
             <div class="col-lg-6">
-                <p><t>Personal Website</t><br/>
-                Personal website.<br/>
+                <p><t>iOS app</t><br/>
+                <a href="https://dolsenj.github.io/PersonalText/">PersonalText</a><br/>
                 </p>
+                <p><more><ul>
+                    <li>Developed an iOS app to send individual text messages to groups of people using Swift now on the <a href="https://itunes.apple.com/us/app/personaltext/id1448064792?ls=1&mt=8">app store</a></li>
+                </ul></more></p>
             </div>
             <div class="col-lg-3">
-                <p><sm>SEPTEMBER - DECEMBER 2017</sm></p>
+                <p><sm>MAY 2018 - Jan 2019 <br />
+                    Ann Arbor, MI</sm></p>
             </div>
             
-            <!-- EDIT: projects line 2-->
+            <!-- Project line 2-->
             <div class="col-lg-6 col-lg-offset-3">
-                <p class="tight"><t>PersonalText</t><br/>
-                Awards Site
+                <p class="tight"><t>Personal Website</t><br/>
+                John Dolsen
                 </p>
-                <p><more>This award has a description. You won it eating pie. Or probably doing something more job-related. Maybe you won't even keep this section - you'll replace it with Skills or something else!</more></p>
+                <p><more><ul>
+                    <li>Built personal website using HTML, CSS, and Bootstrap from scratch </li>
+                </ul></more></p>
             </div>
             <div class="col-lg-3">
-                <p><sm>2013</sm></p>
+                <p><sm>Jan 2019 - In Progress <br />
+                    Ann Arbor, MI</sm></p>
+            </div>
+            
+            <!-- Project line 2-->
+            <div class="col-lg-6 col-lg-offset-3">
+                <p class="tight"><t>Microsoft HoloLens App</t><br/>
+                SurgicalTools
+                </p>
+                <p><more><ul>
+                    <li>Developed HoloLens app using Unity, C#, and the HoloLens Development Kit to simulate surgery in augmented reality </li>
+                </ul></more></p>
+            </div>
+            <div class="col-lg-3">
+                <p><sm>Jan 2018 - May 2018 <br />
+                    Ann Arbor, MI</sm></p>
             </div>
             
         </div><!--/.row -->
     </div><!--/.container -->
-        
-        
+    <br>
+    
+    <!-- Projects SECTION -->
+    <div class="container desc rounded">
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-1">
+                <h5>SKILLS</h5>
+            </div>
+            
+            <!-- EDIT: projects line 1-->
+            <div class="col-lg-6">
+                
+                <p><more>C++, Python, C#, C, JavaScript, Java, HTML, CSS, SQL, Swift, XML, Visual Studio, XCode, PyCharm, GitHub, Unity, Microsoft HoloLens</more></p>
+            </div>
+            <div class="col-lg-3">
+                <p><sm></sm></p>
+            </div>
+            
+        </div><!--/.row -->
+    </div><!--/.container -->
+    <br>
+    
+    <!-- Activities SECTION -->
+    <div class="container desc rounded">
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-1">
+                <h5>ACTIVITIES</h5>
+            </div>
+            
+            <!-- Activity line 1-->
+            <div class="col-lg-6">
+                <p><t>Mission Leader</t><br/>
+                <a href="https://www.ucoweb.org/">University Christian Outreach</a><br/>
+                </p>
+                <p><more><ul>
+                    <li>Served in a lead role, training students to lead mission efforts on campus</li>
+                </ul></more></p>
+            </div>
+            <div class="col-lg-3">
+                <p><sm>MAY 2018 - May 2019 <br />
+                    Ann Arbor, MI</sm></p>
+            </div>
+            
+            <!-- Activity line 2-->
+            <div class="col-lg-6 col-lg-offset-3">
+                <p class="tight"><t>Service Intern</t><br/>
+                <a href="https://youthworks-detroit.org/">YouthWorks-Detroit</a><br/>
+                </p>
+                <p><more><ul>
+                    <li>Worked on the StreetTeam, a program that hires high school aged students to do service projects around the city and help them become leaders of their future communities</li>
+                </ul></more></p>
+            </div>
+            <div class="col-lg-3">
+                <p><sm>May 2017 - Aug 2017 <br />
+                    Detroit, MI</sm></p>
+            </div>
+        </div><!--/.row -->
+    </div><!--/.container -->
+    <br>
         <section id="contact" name="contact"></section>
         <!--FOOTER DESCRIPTION -->
         <div id="footwrap" class="footer">
@@ -206,9 +278,11 @@
                         <p><sm>SOCIAL LINKS</sm></p>
                         <p>
                         <!-- EDIT: Social Links. Replace # with your URL for each -->
-                        <a href="#"><i class="icon-github"></i></a>
-                        <a href="#"><i class="icon-linkedin"></i></a>
-                        <a href="#"><i class="icon-envelope"></i></a>
+                        <div class="bigger_font">
+                            <a href="#"><i class="icon-github"></i></a>
+                            <a href="#"><i class="icon-linkedin"></i></a>
+                            <a href="#"><i class="icon-envelope"></i></a>
+                        </div>
                         </p>
                     </div>
                 </div><!--/.row -->

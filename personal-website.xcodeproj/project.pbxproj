@@ -10,6 +10,7 @@
 		5210B815229991130044B981 /* personal_website_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personal_website_logo.png; sourceTree = "<group>"; };
 		5210B81A2299D7290044B981 /* insta_pic.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = insta_pic.JPG; sourceTree = "<group>"; };
 		5210B81F229C71B00044B981 /* cool_pic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cool_pic.jpeg; sourceTree = "<group>"; };
+		5210B821229DA5FC0044B981 /* dropdown.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = dropdown.js; sourceTree = "<group>"; };
 		52E87CEC20A7C733003DA713 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		52E87CEE20A7CD23003DA713 /* fontawesome-webfont.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "fontawesome-webfont.svg"; sourceTree = "<group>"; };
 		52E87CEF20A7CD23003DA713 /* fontawesome-webfont-v=3.2.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont-v=3.2.1.ttf"; sourceTree = "<group>"; };
@@ -54,6 +55,7 @@
 			children = (
 				52E87CF420A7CD23003DA713 /* bootstrap.js */,
 				52E87CF520A7CD23003DA713 /* jquery.min.js */,
+				5210B821229DA5FC0044B981 /* dropdown.js */,
 			);
 			path = js;
 			sourceTree = "<group>";
