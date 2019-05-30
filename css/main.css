@@ -60,8 +60,10 @@ body {
     margin-right: 5%;
 }
 
-.bigger_font {
-    font-size:40px;
+@media screen and (min-width: 601px) {
+    .bigger_font {
+        font-size: 250%;
+    }
 }
 
 .nav {
