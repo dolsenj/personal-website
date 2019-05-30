@@ -40,6 +40,12 @@ body {
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd}
 
+/*.dropdown:hover .dropdown-content {display: block;}*/
+/**/
+/*.dropdown:hover .dropbtn {background-color: #7b7b7b;*/
+/*    text-decoration: none;*/
+/*    outline: 0;}*/
+
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
