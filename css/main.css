@@ -194,7 +194,7 @@ body {
 }
 
 .background-image{
-	background: url('file:///Users/John/Documents/projects/personal-website/images/rsz_denali.jpg'); 
+	background: url('../images/rsz_denali.jpg'); 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
