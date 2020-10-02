@@ -9,279 +9,127 @@
         <link rel="apple-touch-icon" href="icon.png" />
         <title>John Dolsen</title>
         
-        <!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.css" rel="stylesheet">
+		<!-- Bootstrap core CSS -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+		<!-- jQuery library -->
+		
+		
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		
+
+
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <!-- Link the main.css stylesheet -->
         <link href="css/main.css" rel="stylesheet">
         <!-- Google Fonts -->
-        <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-        <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Montserrat:400,700' rel='stylesheet' type='text/css'>
+        
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-         <script src="js/html5shiv.js"></script>
-         <script src="js/respond.min.js"></script>
          <script src="js/dropdown.js"></script>
     </head>
     
     <body>
-        <ul class="nav">
-            <li><a href="resume.pdf">Resume</a></li>
-            <li><a href="#">John Dolsen</a></li>
-            <li><div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">UCO Mission</button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="https://spark.adobe.com/page/we9Ho6hoBpD7Y/">Fall Mission Update</a>
-                    <a href="https://spark.adobe.com/page/cuEiqJlZyiIb5/">Winter Mission Update</a>
-                    <a href="https://spark.adobe.com/page/01o8N1dnQxf4b/">Spring Mission Update</a>
-                </div>
-            </div></li>
-            </div></a></li>
-        </ul>
-        <div class="header white_background" id="headerwrap">
-            <div class="container">
-                <div class="row centered">
-                    <div class="col-lg-12">
-                        <br>
-                        <h1>Welcome!</h1>
-                        <h3>
-                            <a href="mailto:dolsenj@umich.edu">dolsenj@umich.edu</a>
-                        </h3>
-                        <img src="images/cool_pic.jpeg" alt="very cool" align = "center" class="img-responsive";>
-                        <hr>
-                    </div><!--/.col-lg-12-->
-                </div><!--/.row-->
-            </div><!--/.container-->
-        </div><!--/.#headerwrap-->
-        <br>
-        <section id="about" name="about"></section>
-        <div class="container desc rounded">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1">
-                    <h5>ABOUT</h5>
-                    <img src="images/fripp_headshot.JPG" alt="fripp" class = "circular--portrait img-responsive" >
-                    
-                </div>
-                <!-- About info -->
-                <div class="col-lg-6">
-                    <p><more><p class=".col-sm-pull-1 testing">I'm John, a recent graduate of the University of Michigan who studied computer science. I'm finishing up a gap year with a christian outreach organization and now considering  opportunities in computer programming.</p></more></p>
-                </div>
-                <div class="bigger_font">
-                    <a href="https://github.com/dolsenj"><i class="icon-github"></i></a>
-                    <a href="https://www.linkedin.com/in/john-dolsen-492204187"><i class="icon-linkedin"></i></a>
-                    <a href="mailto:dolsenj@umich.edu"><i class="icon-envelope"></i></a>
-                </div>
-            </div><!--/.row -->
-        </div><!--/.container -->
-        <br>
-        
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark border-bottom">
+		<a class="navbar-brand" href="#">John Dolsen</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+			<li class="nav-item">
+				<a class="nav-link" href="projects/index.html">Projects </a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="mission/index.html">Mission</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contact/index.html" tabindex="0">Contact</a>
+			</li>
+			</ul>
+		</div>
+	</nav>	
+	<header class="bg-light background-image px3 py3 border-bottom border-light-gray">
+		<div class="center">
+			<a href>
+				<img src="images/rsz_fb-profile-pic.jpg" alt="profile" class="border bg-white p1 border-light-gray circle square-150 lazyloaded">
+			</a>
+			<div class="clearfix">
+				<a href="https://www.johndolsen.com/">
+					<h1 class="page-title mt0 mb1 home-page">John Dolsen</h1>
+				</a>
+			</div>
+			<h2 class="page-description body-font gray mt0 h3 regular">
+				Software Engineer at <a href="http://www.servantsystems.com/" target="_blank">Servant</a>,
+				<br>
+				Graduate of <a href="https://cse.engin.umich.edu/academics/undergraduate/computer-science-lsa/" target="_blank">Michigan</a>, 
+				and Missionary with <a href="https://www.ucoweb.org/ann-arbor" target="_blank">UCO</a>
 
-        <div class="header">
-            <h1 class="centered">Resume</h1>
-        </div>
-        <section id="resume" name="resume"></section>
-        <!-- EDUCATION SECTION -->
-        <div class="container desc rounded">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1">
-                    <h5>EDUCATION</h5>
-                </div>
-                <div class="col-lg-6">
-                    <p><t>Bachelor's of Science, Computer Science</t><br/>
-                    University of Michigan
-                    </p>
-                </div>
-                <div class="col-lg-3">
-                    <p><sm>April 2018 <br />
-                        Ann Arbor, MI</sm></p>
-                </div>
-            </div><!--/.row -->
-        </div><!--/.container -->
-        <br>
-        <!-- Experience SECTION -->
-        <div class="container desc rounded">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1">
-                    <h5>EXPERIENCE</h5>
-                </div>
-                <!-- Experience line 1 -->
-                <div class="col-lg-6">
-                    <p class="tight"><t>Software Engineering Internship </t><br/>
-                    <a href="http://www.servantsystems.com/">Servant Systems</a><br/>
-                    </p>
-                    <p><more><ul>
-                        <li>Developed with .NET on team of interns at industry leading franchise management company using Agile process management and Scrum methodology</li>
-                        <li>Built automated test suites using Jasmine, Selenium, Protractor, and the T4 Text Template</li>
-                        <li>Wrote production-level code in JavaScript, C#, NodeJS, and AngularJS </li>
-                    </ul></more></p>
-                </div>
-                <div class="col-lg-3">
-                    <p><sm>May 2016 - Aug 2016 <br />
-                        Chelsea, MI</sm></p>
-                </div>
-                <!-- Experience line 2-->
-                <div class="col-lg-6 col-lg-offset-3">
-                    <p class="tight"><t>Software Engineering Internship</t><br/>
-                    <a href="https://www.advantagecs.com/">AdvantageCS</a> <br/>
-                    </p>
-                    <p><more><ul>
-                        <li>Worked on team of software engineers at international industry leading subscription management company using Agile process management and the .NET framework</li>
-                        <li>Redesigned functionality and replaced proprietary word processor using OpenXML in C#</li>
-                        <li>Wrote production-level C# and SQL code in Visual </li>
-                    </ul></more></p>
-                </div>
-                <div class="col-lg-3">
-                    <p><sm>MAY 2015 - AUGUST 2015 <br />
-                        Ann Arbor, MI</sm></p>
-                </div>
-                
-            </div><!--/.row -->
-        </div><!--/.container -->
-        <br>
-        
-        <!-- Projects SECTION -->
-        <div class="container desc rounded" id="projects">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1">
-                    <h5>PROJECTS</h5>
-                </div>
-                
-                <!-- Projects line 1-->
-                <div class="col-lg-6">
-                    <p><t>iOS app</t><br/>
-                    <a href="https://dolsenj.github.io/PersonalText/">PersonalText</a><br/>
-                    </p>
-                    <p><more><ul>
-                        <li>Developed an iOS app to send individual text messages to groups of people using Swift now on the <a href="https://itunes.apple.com/us/app/personaltext/id1448064792?ls=1&mt=8">app store</a></li>
-                    </ul></more></p>
-                </div>
-                <div class="col-lg-3">
-                    <p><sm>MAY 2018 - Jan 2019 <br />
-                        Ann Arbor, MI</sm></p>
-                </div>
-                
-                <!-- Project line 2-->
-                <div class="col-lg-6 col-lg-offset-3">
-                    <p class="tight"><t>Personal Website</t><br/>
-                    <a href="https://www.johndolsen.com">johndolsen.com</a>
-                    </p>
-                    <p><more><ul>
-                        <li>Built personal website using HTML, CSS, and Bootstrap from scratch </li>
-                    </ul></more></p>
-                </div>
-                <div class="col-lg-3">
-                    <p><sm>Jan 2019 - In Progress <br />
-                        Ann Arbor, MI</sm></p>
-                </div>
-                
-                <!-- Project line 2-->
-                <div class="col-lg-6 col-lg-offset-3">
-                    <p class="tight"><t>Microsoft HoloLens App</t><br/>
-                    SurgicalTools
-                    </p>
-                    <p><more><ul>
-                        <li>Developed HoloLens app using Unity, C#, and the HoloLens Development Kit to simulate surgery in augmented reality </li>
-                    </ul></more></p>
-                </div>
-                <div class="col-lg-3">
-                    <p><sm>Jan 2018 - May 2018 <br />
-                        Ann Arbor, MI</sm></p>
-                </div>
-                
-            </div><!--/.row -->
-        </div><!--/.container -->
-        <br>
-        
-        <!-- Projects SECTION -->
-        <div class="container desc rounded">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1">
-                    <h5>SKILLS</h5>
-                </div>
-                
-                <!-- Projects line 1-->
-                <div class="col-lg-6">
-                    
-                    <p><more>C++, Python, C#, C, JavaScript, Java, HTML, CSS, SQL, Swift, XML, Visual Studio, XCode, PyCharm, GitHub, Unity, Microsoft HoloLens</more></p>
-                </div>
-                <div class="col-lg-3">
-                    <p><sm></sm></p>
-                </div>
-                
-            </div><!--/.row -->
-        </div><!--/.container -->
-        <br>
-        
-        <!-- Activities SECTION -->
-        <div class="container desc rounded">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1">
-                    <h5>ACTIVITIES</h5>
-                </div>
-                
-                <!-- Activity line 1-->
-                <div class="col-lg-6">
-                    <p><t>Mission Leader</t><br/>
-                    <a href="https://www.ucoweb.org/">University Christian Outreach</a><br/>
-                    </p>
-                    <p><more><ul>
-                        <li>Served in a lead role, training students to lead mission efforts on campus</li>
-                    </ul></more></p>
-                </div>
-                <div class="col-lg-3">
-                    <p><sm>MAY 2018 - May 2019 <br />
-                        Ann Arbor, MI</sm></p>
-                </div>
-                
-                <!-- Activity line 2-->
-                <div class="col-lg-6 col-lg-offset-3">
-                    <p class="tight"><t>Service Intern</t><br/>
-                    <a href="https://youthworks-detroit.org/">YouthWorks-Detroit</a><br/>
-                    </p>
-                    <p><more><ul>
-                        <li>Worked on the StreetTeam, a program that hires high school aged students to do service projects around the city and help them become leaders of their future communities</li>
-                    </ul></more></p>
-                </div>
-                <div class="col-lg-3">
-                    <p><sm>May 2017 - Aug 2017 <br />
-                        Detroit, MI</sm></p>
-                </div>
-            </div><!--/.row -->
-        </div><!--/.container -->
-        <br>
-        <section id="contact" name="contact"></section>
-        <!--FOOTER DESCRIPTION -->
-        <div id="footwrap" class="footer">
-            <div class="container">
-                <div class="row">
-                    
-                    <div class="col-lg-2 col-lg-offset-1">
-                        <h5>CONTACT</h5>
-                    </div>
-                    <!-- Email -->
-                    <div class="col-lg-6">
-                        <p><t>Email</t><br/>
-                        <a href="mailto:dolsenj@umich.edu" class="mail">dolsenj@umich.edu</a> <br/>
-                        
-                        <!-- Phone -->
-                        <p><t>Phone</t><br/>
-                        <a href="tel:7348839886" class="tel">(734) 883-9886</a> <br/>
-                        </p>
-                    </div>
-                    <div class="col-lg-3">
-                        <p><sm>SOCIAL LINKS</sm></p>
-                        <p>
-                        <!-- Social Links. -->
-                        <div class="bigger_font">
-                            <a href="https://github.com/dolsenj"><i class="icon-github"></i></a>
-                            <a href="https://www.linkedin.com/in/john-dolsen-492204187"><i class="icon-linkedin"></i></a>
-                            <a href="mailto:dolsenj@umich.edu"><i class="icon-envelope"></i></a>
-                        </div>
-                        </p>
-                    </div>
-                </div><!--/.row -->
-            </div><!--/.container -->
-        </div><!--/ #footer -->
-        
+			</h2>
+		</div>   
+		
+	</header>
+	<main class="container block p3">
+		<div class="clearfix mxn2">
+			<div class="col col-9 px2">
+				<h3 class="mb2">About me</h3>
+				<p> John Dolsen loves programming, volunteering, reading, cooking, traveling, and sporting but not talking in the 3rd person. He is passionate about how high quality software can improve the lives of others. He helps build software that serves our home 
+					service workers while working at Servant Systems. For more info, check out his <a href="projects/index.html">projects</a>, <a href="mission/index.html">mission</a>, or <a href="contact/index.html">contact</a> him.
+				</p>
+			</div>
+			<div class="col col-3 px2">
+				<h3 class="mb2">Contact</h3>
+				<div class="clearfix">
+					<a class="col dark-gray width-120" href="https://www.instagram.com/jdolsen/?hl=en" target="_blank">
+						<i class="fa fa-fw fa-2x icon-instagram valign-middle"></i>
+						<span class="h5 header-font">Instagram</span>
+					</a>
+					<a class="col dark-gray width-120" href="https://www.facebook.com/john.dolsen.50/" target="_blank">
+						<i class="fa fa-fw fa-2x icon-facebook valign-middle"></i>
+						<span class="h5 header-font">Facebook</span>
+					</a>
+					<a class="col dark-gray width-120" href="https://www.linkedin.com/in/john-dolsen-492204187" target="_blank">
+						<i class="fa fa-fw fa-2x icon-linkedin valign-middle"></i>
+						<span class="h5 header-font">LinkedIn</span>
+					</a>
+					<a class="col dark-gray width-120" href="https://github.com/dolsenj" target="_blank">
+						<i class="fa fa-fw fa-2x icon-github valign-middle"></i>
+						<span class="h5 header-font">GitHub</span>
+					</a>
+					<a class="col dark-gray width-120" href="mailto:dolsenj@umich.edu">
+						<i class="fa fa-fw fa-2x icon-envelope valign-middle"></i>
+						<span class="h5 header-font">Email</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="sticky-footer border-top border-light-gray gray h6">
+		<div class="sm-col px2">
+			© 2020 John Dolsen.
+		</div>
+		<div class="sm-col-right px2">
+			<a class="gray hint--top" href="https://www.instagram.com/jdolsen/?hl=en" target="_blank">
+				<i class="fa fa-fw fa-lg icon-instagram"></i>
+			</a>
+			<a class="gray hint--top" href="https://www.facebook.com/john.dolsen.50/" target="_blank">
+				<i class="fa fa-fw fa-lg icon-facebook"></i>
+			</a>
+			<a class="gray hint--top" href="https://www.linkedin.com/in/john-dolsen-492204187" target="_blank">
+				<i class="fa fa-fw fa-lg icon-linkedin"></i>
+			</a>
+			<a class="gray hint--top" href="https://github.com/dolsenj" target="_blank">
+				<i class="fa fa-fw fa-lg icon-github"></i>
+			</a>
+			<a class="gray hint--top" href="mailto:dolsenj@umich.edu">
+				<i class="fa fa-fw fa-lg icon-envelope"></i>
+			</a>
+		</div>
+	</footer>
     </body>
 </html>
 
